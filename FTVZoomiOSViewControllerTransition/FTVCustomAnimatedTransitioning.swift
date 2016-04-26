@@ -87,7 +87,6 @@ class FTVCustomAnimatedTransitioning: NSObject, UIViewControllerAnimatedTransiti
             UIView.addKeyframeWithRelativeStartTime(0.7, relativeDuration: 0.3) {
                 toVC.contentView.transform = CGAffineTransformScale(toVC.view.transform, 1.0, 1.0)
             }
-
         }
     }
 

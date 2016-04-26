@@ -10,19 +10,10 @@ import UIKit
 
 class FirstViewController: UIViewController {
 
-    override func viewDidLoad() {
-        super.viewDidLoad()
-    }
-
     override func viewWillAppear(animated: Bool) {
+
         super.viewWillAppear(animated)
-
         navigationController?.delegate = self
-    }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
     }
 }
 
@@ -31,6 +22,7 @@ class FirstViewController: UIViewController {
 extension FirstViewController: UINavigationControllerDelegate {
 
     func navigationController(navigationController: UINavigationController, animationControllerForOperation operation: UINavigationControllerOperation, fromViewController fromVC: UIViewController, toViewController toVC: UIViewController) -> UIViewControllerAnimatedTransitioning? {
+
         return FTVCustomAnimatedTransitioning()
     }
 }

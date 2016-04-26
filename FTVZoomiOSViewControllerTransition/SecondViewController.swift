@@ -13,8 +13,8 @@ class SecondViewController: UIViewController {
     @IBOutlet weak var contentView: UIView!
     
     override func viewWillAppear(animated: Bool) {
-        super.viewWillAppear(animated)
 
+        super.viewWillAppear(animated)
         navigationController?.delegate = nil
     }
 }
