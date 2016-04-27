@@ -36,12 +36,13 @@ Finally, nullify the `UINavigationControllerDelegate` in the destination `UIView
 
 ```Swift
 class YourDestinationViewController: UIViewController {
-    
+...    
     override func viewWillAppear(animated: Bool) {
 
         super.viewWillAppear(animated)
         navigationController?.delegate = nil
     }
+...    
 }
 ```
 
