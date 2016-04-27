@@ -5,6 +5,8 @@
 Simple Swift project demonstrating how the custom transition from the playlists screen 
 to the player screen was made for **francetv zoom**, by implementing the `UINavigationControllerDelegate` and `UIViewControllerAnimatedTransitioning` protocols.
 
+![](Example.gif)
+
 ## Usage
 
 Drag the **FTVCustomAnimatedTransitioning.swift** file into your project.
