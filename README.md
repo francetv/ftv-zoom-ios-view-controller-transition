@@ -1,8 +1,10 @@
 # francetv zoom ViewController Transition
 
+This project is part of [francetv zoom open source projects](https://github.com/francetv/zoom-public) (iOS, Android and Angular).
+
 ## Summary
 
-Simple Swift project demonstrating how the custom transition from the playlists screen 
+Simple Swift project demonstrating how the custom transition from the playlists screen
 to the player screen was made for **francetv zoom**, by implementing the `UINavigationControllerDelegate` and `UIViewControllerAnimatedTransitioning` protocols.
 
 ![](Example.gif)
@@ -56,3 +58,7 @@ To try the example project, clone the repo, and run the project.
 
   + ARC
   + iOS 8
+
+## License
+
+  This project is available under the MIT license. See the LICENSE file for more info.
